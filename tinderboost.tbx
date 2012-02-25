@@ -1,0 +1,1574 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tinderbox version="2" revision="9" savedBy="5.10.1" >
+<attrib Name="anything" editable="0" visibleInEditor="1" default="" >
+<attrib Name="System" parent="anything" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Agent" parent="System" editable="0" visibleInEditor="1" type="4" default="false" >
+<attrib Name="AgentAction" parent="Agent" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="AgentCaseSensitive" parent="Agent" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="AgentPriority" parent="Agent" editable="1" visibleInEditor="1" type="2" default="10" >
+</attrib>
+<attrib Name="AgentQuery" parent="Agent" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+<attrib Name="Appearance" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Badge" parent="Appearance" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Border" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="1" >
+</attrib>
+<attrib Name="BorderBevel" parent="Appearance" editable="1" visibleInEditor="1" default="plain" >
+</attrib>
+<attrib Name="BorderColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="#000000" >
+</attrib>
+<attrib Name="BorderDash" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Color" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="2" >
+</attrib>
+<attrib Name="Color2" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="light warm gray" >
+</attrib>
+<attrib Name="Opacity" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="Pattern" parent="Appearance" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="PlotColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="black" >
+</attrib>
+<attrib Name="Shadow" parent="Appearance" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="ShadowBlur" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="8" >
+</attrib>
+<attrib Name="ShadowColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="black" >
+</attrib>
+<attrib Name="ShadowDistance" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="5" >
+</attrib>
+<attrib Name="Shape" parent="Appearance" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+<attrib Name="Events" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="DueDate" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+<attrib Name="EndDate" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+<attrib Name="StartDate" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+<attrib Name="TimelineBand" parent="Events" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="TimelineBandLabelColor" parent="Events" editable="1" visibleInEditor="1" type="1" default="black" >
+</attrib>
+<attrib Name="TimelineBandLabelOpacity" parent="Events" editable="1" visibleInEditor="1" type="2" default="25" >
+</attrib>
+<attrib Name="TimelineBandLabels" parent="Events" editable="1" visibleInEditor="1" type="10" default="" >
+</attrib>
+<attrib Name="TimelineColor" parent="Events" editable="1" visibleInEditor="1" type="1" default="lighter warm gray" >
+</attrib>
+<attrib Name="TimelineEnd" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+<attrib Name="TimelineGridColor" parent="Events" editable="1" visibleInEditor="1" type="1" default="#EEEEFF" >
+</attrib>
+<attrib Name="TimelineMarker" parent="Events" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="TimelineScaleColor" parent="Events" editable="1" visibleInEditor="1" type="1" default="cool gray" >
+</attrib>
+<attrib Name="TimelineScaleColor2" parent="Events" editable="1" visibleInEditor="1" type="1" default="" >
+</attrib>
+<attrib Name="TimelineStart" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+</attrib>
+<attrib Name="General" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Checked" parent="General" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="ChildCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="CleanupAction" parent="General" editable="1" visibleInEditor="1" default="none" >
+</attrib>
+<attrib Name="Container" parent="General" editable="1" visibleInEditor="1" canInherit="0" default="" >
+</attrib>
+<attrib Name="Created" parent="General" editable="0" visibleInEditor="1" type="5" canInherit="0" default="never" >
+</attrib>
+<attrib Name="Creator" parent="General" editable="0" visibleInEditor="1" kind="1" canInherit="0" default="s" >
+</attrib>
+<attrib Name="DescendantCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="DisplayExpression" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="DisplayExpressionDisabled" parent="General" editable="1" visibleInEditor="1" type="4" canInherit="0" default="false" >
+</attrib>
+<attrib Name="DisplayName" parent="General" editable="0" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="File" parent="General" editable="1" visibleInEditor="1" type="3" default="" >
+</attrib>
+<attrib Name="HoverExpression" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="ID" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="InboundLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="IsAdornment" parent="General" editable="0" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="IsAlias" parent="General" editable="0" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="IsPrototype" parent="General" editable="1" visibleInEditor="1" type="4" canInherit="0" default="false" >
+</attrib>
+<attrib Name="Modified" parent="General" editable="0" visibleInEditor="1" type="5" canInherit="0" default="never" >
+</attrib>
+<attrib Name="Name" parent="General" editable="1" visibleInEditor="1" canInherit="0" default="untitled" >
+</attrib>
+<attrib Name="OnAdd" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="OutboundLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="OutlineDepth" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="OutlineOrder" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="Path" parent="General" editable="0" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Private" parent="General" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Prototype" parent="General" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="PrototypeBequeathsChildren" parent="General" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="ReadCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="Rule" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="RuleDisabled" parent="General" editable="1" visibleInEditor="1" type="4" canInherit="0" default="false" >
+</attrib>
+<attrib Name="SelectionCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="SiblingOrder" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="Subtitle" parent="General" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="WebLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+</attrib>
+<attrib Name="HTML" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="HTMLBoldEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/b&gt;" >
+</attrib>
+<attrib Name="HTMLBoldStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;b&gt;" >
+</attrib>
+<attrib Name="HTMLCloud1End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud1Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 0.75em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLCloud2End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud2Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 1em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLCloud3End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud3Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 1.4em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLCloud4End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud4Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 2em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLCloud5End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud5Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 2.8em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLDontExport" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="HTMLEntities" parent="HTML" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="HTMLExportAfter" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLExportBefore" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLExportChildren" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="HTMLExportCommand" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLExportExtension" parent="HTML" editable="1" visibleInEditor="1" kind="9" default=".html" >
+</attrib>
+<attrib Name="HTMLExportFileName" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLExportFileNameSpacer" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLExportTemplate" parent="HTML" editable="1" visibleInEditor="1" kind="6" type="3" default="/Applications/Tinderbox.app/Contents/MacOS/templates/html/plain" >
+</attrib>
+<attrib Name="HTMLFileNameLowerCase" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="HTMLFileNameMaxLength" parent="HTML" editable="1" visibleInEditor="1" type="2" default="24" >
+</attrib>
+<attrib Name="HTMLFirstParagraphEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/p&gt;" >
+</attrib>
+<attrib Name="HTMLFirstParagraphStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;p&gt;" >
+</attrib>
+<attrib Name="HTMLImageEnd" parent="HTML" editable="1" visibleInEditor="1" default="&gt;" >
+</attrib>
+<attrib Name="HTMLImageStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;img" >
+</attrib>
+<attrib Name="HTMLIndentedParagraphEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/p&gt;" >
+</attrib>
+<attrib Name="HTMLIndentedParagraphStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;p style=&quot;text-indent:3em;&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLItalicEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/i&gt;" >
+</attrib>
+<attrib Name="HTMLItalicStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;i&gt;" >
+</attrib>
+<attrib Name="HTMLListEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/ul&gt;" >
+</attrib>
+<attrib Name="HTMLListItemEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/li&gt;" >
+</attrib>
+<attrib Name="HTMLListItemStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;li&gt;" >
+</attrib>
+<attrib Name="HTMLListStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;ul&gt;" >
+</attrib>
+<attrib Name="HTMLMarkupText" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="HTMLOrderedListEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/ol&gt;" >
+</attrib>
+<attrib Name="HTMLOrderedListStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;ol&gt;" >
+</attrib>
+<attrib Name="HTMLOverwriteImages" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="HTMLParagraphEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/p&gt;" >
+</attrib>
+<attrib Name="HTMLParagraphStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;p&gt;" >
+</attrib>
+<attrib Name="HTMLQuoteHTML" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="HTMLStrikeEnd" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLStrikeStart" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLUnderlineEnd" parent="HTML" editable="1" visibleInEditor="1" default="}--&gt;" >
+</attrib>
+<attrib Name="HTMLUnderlineStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;!--\textsc{" >
+</attrib>
+<attrib Name="IsTemplate" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+</attrib>
+<attrib Name="Internal" parent="System" editable="0" visibleInEditor="0" default="" >
+<attrib Name="Alias" parent="Internal" editable="0" visibleInEditor="0" type="6" default="0" >
+</attrib>
+<attrib Name="EntryScript" parent="Internal" editable="0" visibleInEditor="0" default="" >
+</attrib>
+<attrib Name="ExitScript" parent="Internal" editable="0" visibleInEditor="0" default="" >
+</attrib>
+<attrib Name="WindowPlace" parent="Internal" editable="0" visibleInEditor="0" kind="21" type="100" canInherit="0" default="Rect[ 50 50 550 550]" >
+</attrib>
+</attrib>
+<attrib Name="Iris" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="IrisAngle" parent="Iris" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="IrisRadius" parent="Iris" editable="1" visibleInEditor="1" type="2" default="1" >
+</attrib>
+</attrib>
+<attrib Name="Map" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Fill" parent="Map" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="FillOpacity" parent="Map" editable="1" visibleInEditor="1" type="2" default="1" >
+</attrib>
+<attrib Name="Height" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="2.5" >
+</attrib>
+<attrib Name="InteriorScale" parent="Map" editable="1" visibleInEditor="1" kind="20" type="2" default="1.25" >
+</attrib>
+<attrib Name="LeafBase" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.5" >
+</attrib>
+<attrib Name="LeafBend" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="LeafDirection" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="LeafTip" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.5" >
+</attrib>
+<attrib Name="Lock" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="MapBackgroundColor" parent="Map" editable="1" visibleInEditor="1" kind="3" type="1" default="#f2f0e6" >
+</attrib>
+<attrib Name="MapBackgroundColor2" parent="Map" editable="1" visibleInEditor="1" kind="25" type="1" default="#f1faff" >
+</attrib>
+<attrib Name="MapBackgroundPattern" parent="Map" editable="1" visibleInEditor="1" kind="26" default="gradient" >
+</attrib>
+<attrib Name="MapBodyTextColor" parent="Map" editable="1" visibleInEditor="1" type="1" default="auto" >
+</attrib>
+<attrib Name="MapBodyTextSize" parent="Map" editable="1" visibleInEditor="1" type="2" default="1" >
+</attrib>
+<attrib Name="MapScrollX" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="MapScrollY" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="MapTextSize" parent="Map" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="NameAlignment" parent="Map" editable="1" visibleInEditor="1" default="center" >
+</attrib>
+<attrib Name="NameBold" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="NameColor" parent="Map" editable="1" visibleInEditor="1" type="1" default="automatic" >
+</attrib>
+<attrib Name="NameFont" parent="Map" editable="1" visibleInEditor="1" kind="2" default="Calibri" >
+</attrib>
+<attrib Name="NameLeading" parent="Map" editable="1" visibleInEditor="1" type="2" default="-1" >
+</attrib>
+<attrib Name="NameStrike" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Sticky" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="SubtitleColor" parent="Map" editable="1" visibleInEditor="1" type="1" default="automatic" >
+</attrib>
+<attrib Name="SubtitleOpacity" parent="Map" editable="1" visibleInEditor="1" type="2" default="50" >
+</attrib>
+<attrib Name="SubtitleSize" parent="Map" editable="1" visibleInEditor="1" type="2" default="80" >
+</attrib>
+<attrib Name="TableExpression" parent="Map" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="TableHeading" parent="Map" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="TitleHeight" parent="Map" editable="1" visibleInEditor="1" type="2" default="2.5" >
+</attrib>
+<attrib Name="TitleOpacity" parent="Map" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="Width" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="5" >
+</attrib>
+<attrib Name="Xpos" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="Ypos" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+</attrib>
+<attrib Name="Net" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="AutoFetch" parent="Net" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="AutoFetchCommand" parent="Net" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="LastFetched" parent="Net" editable="0" visibleInEditor="1" type="5" canInherit="0" default="never" >
+</attrib>
+<attrib Name="RSSChannelTemplate" parent="Net" editable="1" visibleInEditor="1" default="RSSChannel" >
+</attrib>
+<attrib Name="RSSItemLimit" parent="Net" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="RSSItemTemplate" parent="Net" editable="1" visibleInEditor="1" default="RSSItem" >
+</attrib>
+<attrib Name="RawData" parent="Net" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="URL" parent="Net" editable="1" visibleInEditor="1" type="9" default="" >
+</attrib>
+<attrib Name="ViewInBrowser" parent="Net" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+</attrib>
+<attrib Name="Outline" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="MapPrototypeColor" parent="Outline" editable="1" visibleInEditor="1" kind="13" type="1" default="#cceecc" >
+</attrib>
+<attrib Name="OutlineBackgroundColor" parent="Outline" editable="1" visibleInEditor="1" type="1" default="automatic" >
+</attrib>
+<attrib Name="OutlineColorSwatch" parent="Outline" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="OutlineTextSize" parent="Outline" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="Separator" parent="Outline" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+</attrib>
+<attrib Name="People" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="AIM" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Address" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Email" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="FullName" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Latitude" parent="People" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Longitude" parent="People" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Organization" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Telephone" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Twitter" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+<attrib Name="Simplenote" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="SimplenoteKey" parent="Simplenote" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="SimplenoteModified" parent="Simplenote" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+<attrib Name="SimplenoteSync" parent="Simplenote" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="SimplenoteTags" parent="Simplenote" editable="1" visibleInEditor="1" type="8" default="" >
+</attrib>
+<attrib Name="SimplenoteVersion" parent="Simplenote" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+</attrib>
+<attrib Name="Sorting" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Sort" parent="Sorting" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="SortAlso" parent="Sorting" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="SortAlsoTransform" parent="Sorting" editable="1" visibleInEditor="1" default="case-sensitive" >
+</attrib>
+<attrib Name="SortBackward" parent="Sorting" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="SortBackwardAlso" parent="Sorting" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="SortTransform" parent="Sorting" editable="1" visibleInEditor="1" default="case-sensitive" >
+</attrib>
+</attrib>
+<attrib Name="TextFormat" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="AutomaticIndent" parent="TextFormat" editable="1" visibleInEditor="1" kind="23" type="4" default="false" >
+</attrib>
+<attrib Name="KeyAttributeFont" parent="TextFormat" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="KeyAttributes" parent="TextFormat" editable="1" visibleInEditor="1" type="8" default="" >
+</attrib>
+<attrib Name="LeftMargin" parent="TextFormat" editable="1" visibleInEditor="1" kind="15" type="2" default="7" >
+</attrib>
+<attrib Name="LineSpacing" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="NoSpelling" parent="TextFormat" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="ParagraphSpacing" parent="TextFormat" editable="1" visibleInEditor="1" kind="14" type="2" default="6" >
+</attrib>
+<attrib Name="RightMargin" parent="TextFormat" editable="1" visibleInEditor="1" kind="16" type="2" default="-6" >
+</attrib>
+<attrib Name="ShowTitle" parent="TextFormat" editable="1" visibleInEditor="1" kind="5" type="4" default="false" >
+</attrib>
+<attrib Name="Tabs" parent="TextFormat" editable="1" visibleInEditor="1" default="0.5;" >
+</attrib>
+<attrib Name="TextAlign" parent="TextFormat" editable="1" visibleInEditor="1" kind="22" default="" >
+</attrib>
+<attrib Name="TextBackgroundColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="8" type="1" default="#eeeeed" >
+</attrib>
+<attrib Name="TextColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="7" type="1" default="#000000" >
+</attrib>
+<attrib Name="TextFont" parent="TextFormat" editable="1" visibleInEditor="1" kind="18" default="Calibri" >
+</attrib>
+<attrib Name="TextFontSize" parent="TextFormat" editable="1" visibleInEditor="1" kind="19" type="2" default="14" >
+</attrib>
+<attrib Name="TextSidebar" parent="TextFormat" editable="1" visibleInEditor="1" kind="17" type="4" default="false" >
+</attrib>
+<attrib Name="TitleBackgroundColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="12" type="1" default="#cdccfd" >
+</attrib>
+<attrib Name="TitleFont" parent="TextFormat" editable="1" visibleInEditor="1" kind="4" default="Calibri" >
+</attrib>
+<attrib Name="TitleForegroundColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="11" type="1" default="#333333" >
+</attrib>
+</attrib>
+<attrib Name="Textual" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="ReadOnly" parent="Textual" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Text" parent="Textual" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="TextExportTemplate" parent="Textual" editable="1" visibleInEditor="1" kind="10" default="/Applications/Tinderbox.app/Contents/MacOS/templates/text/text" >
+</attrib>
+<attrib Name="TextLength" parent="Textual" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="WordCount" parent="Textual" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Wordcount" parent="Textual" editable="0" visibleInEditor="0" type="2" default="0" >
+</attrib>
+</attrib>
+<attrib Name="Weblog" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="WeblogPostID" parent="Weblog" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="mt_allow_comments" parent="Weblog" editable="1" visibleInEditor="1" type="2" default="1" >
+</attrib>
+<attrib Name="mt_allow_pings" parent="Weblog" editable="1" visibleInEditor="1" type="2" default="1" >
+</attrib>
+<attrib Name="mt_convert_breaks" parent="Weblog" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="mt_keywords" parent="Weblog" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+</attrib>
+<attrib Name="User" parent="anything" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Activity" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Apply" parent="User" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Article" parent="User" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Author" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Book" parent="User" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Concept" parent="User" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Cost" parent="User" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Credit" parent="User" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Event" parent="User" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Flagged" parent="User" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Format" parent="User" editable="1" visibleInEditor="1" type="8" default="" >
+</attrib>
+<attrib Name="Genre" parent="User" editable="1" visibleInEditor="1" type="8" default="" >
+</attrib>
+<attrib Name="ISBN" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="ImageScale" parent="User" editable="1" visibleInEditor="1" type="2" default="0.8" >
+</attrib>
+<attrib Name="Inquiry" parent="User" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Institution" parent="User" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Intensity" parent="User" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Kind" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Language" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Learning" parent="User" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="LearningScore" parent="User" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Location" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Media" parent="User" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Movie" parent="User" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Owned" parent="User" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Person" parent="User" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Persons" parent="User" editable="1" visibleInEditor="1" type="8" default="" >
+</attrib>
+<attrib Name="Place" parent="User" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Priority" parent="User" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Producer" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Publish" parent="User" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Rating" parent="User" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Recipient" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Review" parent="User" editable="1" visibleInEditor="1" type="9" default="" >
+</attrib>
+<attrib Name="Reviewed" parent="User" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Source" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Status" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Syntax" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Tags" parent="User" editable="1" visibleInEditor="1" type="8" default="" >
+</attrib>
+<attrib Name="Time" parent="User" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Title" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Topic" parent="User" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Total" parent="User" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Year" parent="User" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="tmp" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="xPrototype" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+</attrib>
+<colors >
+<color name="1" color="#e6d9d4"  />
+<color name="2" color="#d6ccd4"  />
+<color name="3" color="#e4bbb4"  />
+<color name="4" color="#c9bcaa"  />
+<color name="5" color="#94a6b1"  />
+<color name="6" color="#d07f8e"  />
+<color name="7" color="#b44f5f"  />
+<color name="8" color="#616465"  />
+<color name="beige" color="#d5c297"  />
+<color name="black" color="#5a5a5a"  />
+<color name="blue" color="#3b82d5"  />
+<color name="blueishpink" color="#a34b73"  />
+<color name="bordeau" color="#940700"  />
+<color name="bright blue" color="#0000ff"  />
+<color name="bright green" color="#00ff00"  />
+<color name="bright red" color="#ff0000"  />
+<color name="brown" color="#a17a3f"  />
+<color name="cheeks" color="#d39389"  />
+<color name="cold_yellow" color="#f4ef53"  />
+<color name="cool gray" color="#607080"  />
+<color name="cool gray dark" color="#505860"  />
+<color name="coral" color="#f03e3e"  />
+<color name="cyan" color="#75fcfc"  />
+<color name="darkwood" color="#4a151f"  />
+<color name="eucalyptus" color="#047478"  />
+<color name="ff background" color="#f4e1c3"  />
+<color name="ff black" color="#181819"  />
+<color name="ff blue 1" color="#00537f"  />
+<color name="ff blue 2" color="#1c6188"  />
+<color name="ff blue 3" color="#477899"  />
+<color name="ff blue 4" color="#6890aa"  />
+<color name="ff blue 5" color="#7fa8be"  />
+<color name="ff blue 6" color="#c1c6c2"  />
+<color name="ff bottle green" color="#005848"  />
+<color name="ff dark gray" color="#3d3d3f"  />
+<color name="ff dark orange" color="#df5330"  />
+<color name="ff grass green" color="#a8b73a"  />
+<color name="ff grey" color="#a29585"  />
+<color name="ff light grey" color="#ddcfb2"  />
+<color name="ff light orange" color="#e95e41"  />
+<color name="ff mid green" color="#73963a"  />
+<color name="ff pink" color="#c44163"  />
+<color name="ff whiteish" color="#faf1e2"  />
+<color name="ff yellow" color="#f4c900"  />
+<color name="ff2 dark blue" color="#41617e"  />
+<color name="ff2 grey blue" color="#95a7b0"  />
+<color name="ff2 mid blue" color="#5f8aa5"  />
+<color name="ff2 red" color="#ec5a46"  />
+<color name="ff2 whiteish" color="#f8ebd7"  />
+<color name="ff3 green" color="#24a698"  />
+<color name="ff3 light green" color="#88bab2"  />
+<color name="gray" color="#93959d"  />
+<color name="green" color="#66c0a6"  />
+<color name="indigo" color="#273e94"  />
+<color name="magenta" color="#802d54"  />
+<color name="normal" color="#000000"  />
+<color name="orange" color="#eeaf41"  />
+<color name="pinkbordeau" color="#b12049"  />
+<color name="poppy" color="#ffcc66"  />
+<color name="purple" color="#3c3561"  />
+<color name="red" color="#ce3e3d"  />
+<color name="soft_blue" color="#7a8fac"  />
+<color name="turquoise" color="#518996"  />
+<color name="violet" color="#4e358a"  />
+<color name="warm gray" color="#807060"  />
+<color name="warm gray dark" color="#605850"  />
+<color name="warm_orange" color="#ff9159"  />
+<color name="white" color="#ebeff4"  />
+<color name="yellow" color="#f3e54e"  />
+</colors>
+<menu name="Value" kind="stamps" >
+<stamp name="Adornment - Comment" attribute="" >$NameFont=Helvetica Neue light; $NameAlignment=left; $Color=transparent; $MapTextSize=50; Width=6; Height=1; NameColor=red</stamp>
+<stamp name="Adornment - Header" attribute="" >$NameFont=Helvetica Neue light; $NameAlignment=center; $Color=transparent; $MapTextSize=150; Width=6; Height=3; Border=0</stamp>
+<stamp name="Adornment - Preferred Style" attribute="" >NameAlignment=left; NameColor=black; Border=0;</stamp>
+<stamp name="Agent - Turn Off" attribute="" >$AgentPriority=-1</stamp>
+<stamp name="Agent - Turn On" attribute="" >$AgentPriority=10</stamp>
+<stamp name="Case - All Lowercase" attribute="" >$Name = lowercase($Name)</stamp>
+<stamp name="Case - All Uppercase" attribute="" >$Name = uppercase($Name)</stamp>
+<stamp name="Case - Capitalize First Letter" attribute="" >if (Name((^[a-z])(.+))) { $Name=capitalize($1)+$2 }; Name=Name.replace(&quot;^\s+&quot;,&quot;&quot;)</stamp>
+<stamp name="Case - Capitalize Words" attribute="" >$Name = capitalize(lowercase($Name))</stamp>
+<stamp name="Check - Toggle" attribute="" >if ($Checked) { $Checked=false} else {$Checked=true}</stamp>
+<stamp name="Check Media" attribute="" >Checked=true; EndDate=today; Owned=false; Flagged=false; if (StartDate=never) { StartDate=Modified; EndDate=Modified } else { EndDate=StartDate }</stamp>
+<stamp name="Children - Delete Text" attribute="" >$Text(children) = &quot;&quot;</stamp>
+<stamp name="Clear Styles" attribute="" >$Prototype=; $Color=; $OutlineBackgroundColor=; $NameBold=false; $DisplayExpression=; $OutlineTextSize=; $MapTextSize=; NameFont=;</stamp>
+<stamp name="Color - Set" attribute="" >$Color=`pbpaste</stamp>
+<stamp name="Color - Set Map Background Color" attribute="" >$MapBackgroundColor=`pbpaste</stamp>
+<stamp name="Color - Set NameColor" attribute="" >$NameColor = `pbpaste</stamp>
+<stamp name="Color - Set OutlineBackColor" attribute="" >$OutlineBackgroundColor=`pbpaste</stamp>
+<stamp name="DisplayExpression - Clear" attribute="" >$DisplayExpression =;</stamp>
+<stamp name="DisplayExpression - Show DescendantCount" attribute="" >$DisplayExpression=&quot;$Name + &apos; (&apos; + $DescendantCount + &apos;)&apos;&quot;</stamp>
+<stamp name="Export - No" attribute="" >$HTMLDontExport=true; $KeyAttributes=$KeyAttributes - &quot;HTMLDontExport;HTMLExportChildren&quot;;</stamp>
+<stamp name="Export - No + No Children" attribute="" >$HTMLDontExport=true; $HTMLExportChildren=false;</stamp>
+<stamp name="Export - Yes" attribute="" >$HTMLDontExport=false;</stamp>
+<stamp name="Export - Yes + Children" attribute="" >$HTMLDontExport=false; $HTMLExportChildren=true;</stamp>
+<stamp name="Filter Name" attribute="" >Name = escapeHTML(Name).replace(&quot;- &quot;, &quot;&quot;).replace(&quot;&amp;#x2014;&quot;,&quot; -- &quot;).replace(&quot;&amp;#x201c;&quot;,&quot;&apos;&quot;).replace(&quot;&amp;#x201d;&quot;,&quot;&apos;&quot;).replace(&quot;&amp;#x2020;&quot;,&quot;&quot;).replace(&quot;&amp;amp;&quot;,&quot;&amp;&quot;).replace(&quot;&amp;mdash;&quot;,&quot;-&quot;).replace(&quot;\|&quot;,&quot;-&quot;).replace(&quot;&amp;#x2019;&quot;,&quot;&apos;&quot;).replace(&quot;&amp;#x2013;&quot;, &quot;--&quot;)</stamp>
+<stamp name="Filter Name - Clear Tags" attribute="" >if (Name((.+) @(\w+))) { $Name=$1 }</stamp>
+<stamp name="Filter Name - Remove *" attribute="" >Name=Name.replace(&quot;\*&quot;,&quot;&quot;)</stamp>
+<stamp name="Filter Name - Remove Dots" attribute="" >$Name = $Name.replace(&quot;.&quot;,&quot;&quot;)</stamp>
+<stamp name="Filter Name - Remove HTML garb" attribute="" >Name=Name.replace(&quot;(&amp;[^ ]+;)&quot;,&quot;&quot;)</stamp>
+<stamp name="Filter Name - Remove Skim Hyphens" attribute="" >$Name = $Name.replace(&quot;- &quot;, &quot;&quot;)</stamp>
+<stamp name="Filter Name - Remove Square Brackets" attribute="" >Name = Name.replace(&quot;\[.+\]&quot;, &quot;&quot;)</stamp>
+<stamp name="Filter Name - Remove character from clipboard" attribute="" >Name=Name.replace(runCommand(&quot;pbpaste&quot;),&quot;&quot;)</stamp>
+<stamp name="Filter Name - Remove numeration" attribute="" >if (Name((^.{1,3}\.|\) *)(.+))) { Name=$2 }</stamp>
+<stamp name="Filter Name - Reverse with Hyphen" attribute="" >if (Name((.+) - (.+))) { Name = $2 +&quot; - &quot;+$1}</stamp>
+<stamp name="Filter Text" attribute="" >Text = escapeHTML(Text).replace(&quot;- &quot;, &quot;&quot;).replace(&quot;&amp;#x2014;&quot;,&quot; -- &quot;).replace(&quot;&amp;#x201c;&quot;,&quot;&apos;&quot;).replace(&quot;&amp;#x201d;&quot;,&quot;&apos;&quot;).replace(&quot;&amp;#x2020;&quot;,&quot;&quot;).replace(&quot;&amp;amp;&quot;,&quot;&amp;&quot;).replace(&quot;&amp;mdash;&quot;,&quot;-&quot;).replace(&quot;\|&quot;,&quot;-&quot;).replace(&quot;&amp;#x2019;&quot;,&quot;&apos;&quot;)</stamp>
+<stamp name="Filter Text - Clear Tags" attribute="" >if (Text((.+) @(\w+))) { $Text=$1 }</stamp>
+<stamp name="Filter Text - Remoke Square Brackets" attribute="" >Text = Text.replace(&quot;\[.+\]&quot;, &quot;&quot;)</stamp>
+<stamp name="Filter Text - Remove HTML garb" attribute="" >Text=Text.replace(&quot;(&amp;[^ ]+;)&quot;,&quot;&quot;)</stamp>
+<stamp name="Filter Text - Remove Skim Codes" attribute="" >if (Text((^.+ )(@\w+$))) { Text=$1 }</stamp>
+<stamp name="Filter Text - Remove Skim Hyphens" attribute="" >$Text = $Text.replace(&quot;- &quot;, &quot;&quot;)</stamp>
+<stamp name="Filter Text - Remove character from clipboard" attribute="" >Text=Text.replace(runCommand(&quot;pbpaste&quot;),&quot;&quot;)</stamp>
+<stamp name="Filter Text - Replace numerators" attribute="" >Text=Text.replace(&quot;(\d+\. )&quot;,&quot;&quot;)</stamp>
+<stamp name="Filter Text - Strip quotes" attribute="" >`echo &quot;$Text&quot; | sed -e &quot;s/[‘’]/&apos;/g&quot; | sed -e &apos;s/[“”?]/&quot;/g&apos; | pbcopy</stamp>
+<stamp name="Flagged - Toggle" attribute="" >if ($Flagged) { $Flagged=false; $NameBold=false;} else {$Flagged=true; $NameBold=true}</stamp>
+<stamp name="Font - Decrease Size" attribute="" >$MapTextSize = $MapTextSize - 5; $OutlineTextSize = $OutlineTextSize - 5</stamp>
+<stamp name="Font - Increase Size" attribute="" >$MapTextSize = $MapTextSize + 5; $OutlineTextSize = $OutlineTextSize + 5</stamp>
+<stamp name="Get Value from Clipboard" attribute="" >runCommand(&quot;echo &quot;+eval(`pbpaste)+&quot;| pbcopy&quot;)</stamp>
+<stamp name="Implode Children" attribute="" >if ($Text) { $Text = $Text + &quot;\n&quot; + format(collect(child, $Name),&quot;\n&quot;) } else { $Text = format(collect(child, $Name),&quot;\n&quot;) }</stamp>
+<stamp name="Implode Children and Trash" attribute="" >if ($Text) { $Text = $Text + &quot;\n&quot; + format(collect(child, $Name),&quot;\n&quot;) } else { $Text = format(collect(child, $Name),&quot;\n&quot;) }; Container(children)=&quot;/Gears/Trash&quot;</stamp>
+<stamp name="Implode Children in Bullet Points" attribute="" >$Text = &quot;- &quot;+format(collect(child, $Name),&quot;\n- &quot;) }</stamp>
+<stamp name="Implode Children&apos;s TITLE and Text" attribute="" >Text=^include(this, _TitleCapTextChildren)</stamp>
+<stamp name="Implode Children&apos;s Text" attribute="" >$Text = $Text +&quot;\n\n&quot;+format(collect(child, $Text),&quot;\n&quot;)</stamp>
+<stamp name="Implode Children&apos;s Title and Text" attribute="" >Text=^include(this, _TitleTextChildren)</stamp>
+<stamp name="Implode Descendents" attribute="" >if ($Text) { $Text = $Text + &quot;\n&quot; + format(collect(descendent, $Name),&quot;\n&quot;) } else { $Text = format(collect(descendent, $Name),&quot;\n&quot;) }</stamp>
+<stamp name="Implode Descendents in Bullet Points" attribute="" >Text=^include(this, _BulletPointList)</stamp>
+<stamp name="KeyAttributes - Add" attribute="" >$KeyAttributes=$KeyAttributes + `pbpaste</stamp>
+<stamp name="KeyAttributes - Clear" attribute="" >$KeyAttributes=;</stamp>
+<stamp name="KeyAttributes - None" attribute="" >$KeyAttributes=&quot;&quot;</stamp>
+<stamp name="Link to Clipboard" attribute="" >linkTo(`pbpaste)</stamp>
+<stamp name="Map - Hide Children" attribute="" >$TableExpression=; $TitleHeight =; $MapTextSize=;</stamp>
+<stamp name="Map - Hide Text" attribute="" >MapBodyTextSize=1</stamp>
+<stamp name="Map - Horizontal Line" attribute="" >Height=0; Width=20; Prototype=*Adornment</stamp>
+<stamp name="Map - Move down" attribute="" >$Ypos = $Ypos + 1.5</stamp>
+<stamp name="Map - Move left" attribute="" >$Xpos = $Xpos - 1.5</stamp>
+<stamp name="Map - Move right" attribute="" >$Xpos = $Xpos + 1.5</stamp>
+<stamp name="Map - Move up" attribute="" >$Ypos = $Ypos - 1.5</stamp>
+<stamp name="Map - Title Only" attribute="" >$TitleHeight = $Height</stamp>
+<stamp name="Move Children to Trash" attribute="" >Container(children)=&apos;/Gears/Trash&apos;</stamp>
+<stamp name="Move to Clipboard" attribute="" >$Container=`pbpaste</stamp>
+<stamp name="Move to Inbox" attribute="" >$Container=&quot;/Inbox&quot;</stamp>
+<stamp name="Move to Trash" attribute="" >Container=&quot;/Gears/Trash&quot;</stamp>
+<stamp name="Name - Append Next" attribute="" >Name=Name+&quot; &quot;+$Name(next); Container(next)=&quot;/Gears/Trash&quot;</stamp>
+<stamp name="Name - Append Next (Parenthesis)" attribute="" >Name=Name+&quot; (&quot;+$Name(next) + &apos;)&apos;; Container(next)=&quot;/Gears/Trash&quot;</stamp>
+<stamp name="Name - Append Next (Semicolon)" attribute="" >Name=Name+&quot;: &quot;+$Name(next); Container(next)=&quot;/Gears/Trash&quot;</stamp>
+<stamp name="Name - Copy" attribute="" >runCommand(&quot;printf &apos;&quot; + $Name +&quot;&apos; | pbcopy&quot;)</stamp>
+<stamp name="Name - Paste" attribute="" >$Name=`pbpaste</stamp>
+<stamp name="Name - Text into Name (Return)" attribute="" >$Name = $Name + &apos;\n &apos; + $Text; $Text=;</stamp>
+<stamp name="Name - Text into Name (Semicolon)" attribute="" >$Name = $Name + &apos;: &apos; + $Text; $Text=;</stamp>
+<stamp name="New Article" attribute="" >$Prototype=&quot;*Article&quot;; $EndDate=today; $Checked=true;</stamp>
+<stamp name="OnAdd - Blank" attribute="" >OnAdd=&quot;&quot;;</stamp>
+<stamp name="OnAdd - Clear" attribute="" >OnAdd=;</stamp>
+<stamp name="OnAdd - Skim Format" attribute="" >OnAdd=OnAdd(*Skim Import)</stamp>
+<stamp name="Opacity - 0" attribute="" >Opacity=0</stamp>
+<stamp name="Opacity - 100" attribute="" >Opacity=100</stamp>
+<stamp name="Opacity - 40" attribute="" >Opacity=40</stamp>
+<stamp name="Owned" attribute="" >$Owned=true</stamp>
+<stamp name="Owned as PDF" attribute="" >Prototype=&quot;*Book&quot;; Owned=true; $Kind=&quot;PDF&quot;</stamp>
+<stamp name="Prototype - Clear" attribute="" >$Prototype=; $Badge=;</stamp>
+<stamp name="Prototype - Create" attribute="" >Name=&quot;*&quot;+Name; IsPrototype=true</stamp>
+<stamp name="Prototype - Preserve" attribute="" >$xPrototype=$Prototype;</stamp>
+<stamp name="Prototype - Restore" attribute="" >$Prototype=$xPrototype; $xPrototype=;</stamp>
+<stamp name="Prototype - Set" attribute="" >$Prototype=&apos;*&apos;+`pbpaste; KeyAttributes=; $Badge=;</stamp>
+<stamp name="Prototype - Set Same as Previous" attribute="" >$Prototype=$Prototype(prevSibling); $Badge=;</stamp>
+<stamp name="Question - Make Question" attribute="" >if (!Name((\?$))) { Name=Name+&quot;?&quot; }; if (!Prototype) { Prototype=&quot;*Question&quot; }</stamp>
+<stamp name="Rule - Clear" attribute="" >$Rule=;</stamp>
+<stamp name="Rule - Copy" attribute="" >runCommand(&quot;printf &apos;&quot;+Rule +&quot;&apos;  | pbcopy&quot;)</stamp>
+<stamp name="Rule - Paste" attribute="" >$Rule=`pbpaste</stamp>
+<stamp name="Separator - Toggle" attribute="" >if (Separator) { Separator=false } else { Separator=true }</stamp>
+<stamp name="Separator Line" attribute="" >$Name=; Color=red; Separator=true; Prototype=&apos;&apos;;</stamp>
+<stamp name="Shadow - Clear" attribute="" >Shadow=;</stamp>
+<stamp name="Shadow - None" attribute="" >Shadow=0</stamp>
+<stamp name="Size - Decrease Height" attribute="" >Height = Height -1</stamp>
+<stamp name="Size - Decrease Width" attribute="" >Width = Width-1</stamp>
+<stamp name="Size - Increase Height" attribute="" >Height = Height+1</stamp>
+<stamp name="Size - Increase Width" attribute="" >Width = Width+1</stamp>
+<stamp name="Size - Large" attribute="" >Height=4; Width=8</stamp>
+<stamp name="Size - Long" attribute="" >Height=1.5; Width=4</stamp>
+<stamp name="Size - Medium" attribute="" >Height=2.5; Width=5</stamp>
+<stamp name="Size - Small" attribute="" >Height=1; Width=3</stamp>
+<stamp name="Sort - Don&apos;t Sort" attribute="" >Sort=&apos;&apos;; SortAlso=&apos;&apos;;</stamp>
+<stamp name="Source - Credit Parent Note" attribute="" >KeyAttributes=KeyAttributes+&quot;Source&quot;; Source = Name(parent);</stamp>
+<stamp name="Source - Credit in Name" attribute="" >DisplayExpression = &apos;Name+&quot; (&quot;+Source+&quot;)&quot;&apos;</stamp>
+<stamp name="Source - Paste" attribute="" >Source=`pbpaste</stamp>
+<stamp name="Status - Negative" attribute="" >Status=&quot;negative&quot;</stamp>
+<stamp name="Status - Positive" attribute="" >Status=&quot;positive&quot;</stamp>
+<stamp name="Swatch - Hide" attribute="" >OutlineColorSwatch = false</stamp>
+<stamp name="Swatch - Show" attribute="" >OutlineColorSwatch = true</stamp>
+<stamp name="Tags - Append" attribute="" >Tags=Tags+`pbpaste; if (!KeyAttributes.contains(&quot;Tags&quot;)) { KeyAttributes=KeyAttributes+&quot;Tags&quot;}</stamp>
+<stamp name="Tags - Display in Title" attribute="" >if (!DisplayExpression) { DisplayExpression=&quot;Name+&apos; | &apos;+format(Tags,&apos; &apos;)&quot; } else { DisplayExpression=; }</stamp>
+<stamp name="Tags - Extract from Title" attribute="" >if(Name((.+) \| (.+))){Name=$1; Tags=Tags+$2.replace(&quot; &quot;,&quot;;&quot;)}; if (!KeyAttributes.contains(&quot;Tags&quot;)) { KeyAttributes=KeyAttributes+&quot;Tags&quot;}</stamp>
+<stamp name="Tags - Set Prototype" attribute="" >if(Tags.contains(&quot;\*(.+)&quot;)){Prototype=&quot;*&quot;+capitalize($1)}</stamp>
+<stamp name="Text - Append Paste" attribute="" >$Text=$Text + &quot;\n&quot; +`pbpaste</stamp>
+<stamp name="Text - Append next" attribute="" >$Text=$Text+&quot; &quot;+$Text(next); Container(next)=/Gears/Trash</stamp>
+<stamp name="Text - Copy" attribute="" >runCommand(&quot;export __CF_USER_TEXT_ENCODING=0x1F5:0x8000100:0x8000100&quot;); runCommand(&quot;echo &apos;&quot; + $Text +&quot;&apos; | pbcopy&quot;)</stamp>
+<stamp name="Text - Delete" attribute="" >$Text = &quot;&quot;</stamp>
+<stamp name="Text - Name + Text" attribute="" >$Text = $Name + &apos;\n&apos; + $Text</stamp>
+<stamp name="Text - Paste" attribute="" >$Text=`pbpaste; FilterText</stamp>
+<stamp name="Title - Toggle" attribute="" >if (ShowTitle) { ShowTitle=false } else { ShowTitle=true }</stamp>
+<stamp name="URL - Copy" attribute="" >runCommand(&quot;echo &apos;&quot;+$URL +&quot;&apos;  | pbcopy&quot;)</stamp>
+<stamp name="URL - Create" attribute="" >$Prototype=*Link; $URL=`pbpaste</stamp>
+<stamp name="URL - Import from Child Name" attribute="" >$URL = $Name(child); Prototype=*Link</stamp>
+<stamp name="URL - Import from Name" attribute="" >$Prototype=*Link; $URL=$Name;</stamp>
+<stamp name="URL - Import from NameAtLink" attribute="" >$Prototype=*Link; if (Name((.+) @ (.+))) { $Name=$1; $URL=$2; }</stamp>
+<stamp name="URL - InstaRead" attribute="" >runCommand(&quot;echo http://www.instapaper.com/text?u=&quot;+urlEncode(URL)+&quot; | pbcopy&quot;)</stamp>
+<stamp name="URL - Paste" attribute="" >$URL=`pbpaste</stamp>
+</menu>
+<linkTypes >
+<linkType name="*untitled" label="" visible="1" showLabel="0" color="#ffffff" colorString="gray" style="64"  />
+<linkType name="?" visible="1" showLabel="1" color="#000000" colorString="black" style="0"  />
+<linkType name="consequence" visible="1" showLabel="0" color="#000000" colorString="#000000" style="64"  />
+<linkType name="example" visible="1" showLabel="1" color="#000000" colorString="#000000" style="0"  />
+<linkType name="explains" visible="1" showLabel="1" color="#000000" colorString="black" style="0"  />
+<linkType name="note" visible="1" showLabel="1" color="#666666" colorString="#666666" style="0"  />
+<linkType name="note+" visible="1" showLabel="1" color="#444444" colorString="#444444" style="0"  />
+<linkType name="prototype" visible="0" showLabel="1" color="#993333" colorString="#993333" style="0"  />
+<linkType name="reference" visible="0" showLabel="0" color="#ffffff" colorString="#ffffff" style="0"  />
+<linkType name="related" visible="1" showLabel="1" color="#000000" colorString="black" style="0"  />
+<linkType name="review" visible="1" showLabel="1" color="#000000" colorString="black" style="0"  />
+<linkType name="reviews" visible="1" showLabel="1" color="#000000" colorString="black" style="0"  />
+</linkTypes>
+<item ID="3337809336" Creator="s" >
+<attribute name="Created" >2009-10-08T01:14:40+00:00</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="MapScrollX" >-27.5</attribute>
+<attribute name="MapScrollY" >5.25</attribute>
+<attribute name="Modified" >2009-10-08T01:14:40+00:00</attribute>
+<attribute name="Name" >tinderboost</attribute>
+<attribute name="Rule" >Location=TTC; $Rule
+=&apos;&apos;</attribute>
+<attribute name="SelectionCount" >2189</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="3412878074" Creator="s" >
+<attribute name="Created" >2012-02-23T21:41:00+00:00</attribute>
+<attribute name="HTMLExportExtension" >.markdown</attribute>
+<attribute name="HTMLExportFileName" >README</attribute>
+<attribute name="HTMLExportTemplate" >/Applications/Tinderbox.app/Contents/MacOS/templates/html/text</attribute>
+<attribute name="Modified" >2012-02-25T14:50:00+00:00</attribute>
+<attribute name="Name" >Introduction</attribute>
+<attribute name="ReadCount" >38</attribute>
+<attribute name="SelectionCount" >159</attribute>
+<attribute name="Xpos" >16.25</attribute>
+<attribute name="Ypos" >6</attribute>
+<text ># What is Tinderboost?If you&apos;ve compared professional note-taking applications on Mac, you will sooner or later recognize Tinderbox as the most astonishing and powerful [not least because it serves as outliner, mind-mapper, database, GTD assistant and scriptable text exporter and aggregator]. It is also likely that you will grow impatient with its clunky and non-intuitive user interface. Tinderbox is immensely powerful, but may lack in eye candy and user friendliness, and most importantly in keyboard shortcuts for productive work. Thanks to Tinderbox very extensive scriptability and the excellent Keyboard Maestro, I have tinkered with the program until it suited my workflow needs. Tinderboost is an extension to make your daily use of Tinderbox more effective, pleasant and to keep those hands on the keyboard. The motivation is to make Tinderbox a bit more similar to [**org-mode**](http://orgmode.org/) -- i.e. a keyboard-focused lightweight notetaker, outliner, reference library and GTD.&gt; *You may well find your love to Tinderbox rekindled when becoming acquainted with the package.* -- Some PunterThis package provides keyboard automation and interface extensions that allow you to work at the pace of thought:* Note formatting (colors, size, case)* Text filtering, quick find/replace* Quick rule editing* Quick editing of attributes* Quick note moving* Tagging support* Quick assignment of prototypes* Note imploding* Readymade templates to export to PDF and more* Importing highlights from PDFsNote:It&apos;s not at all meant to replace the existing user interface altogether. Also, typing prototype names and color name may sound like a way backward when the application allows to click on drop-down lists. If that is how you are using Tinderbox and don&apos;t see a reason to change it, please don&apos;t bother with this. It won&apos;t help you.# Show me the beautyHere&apos;s a screencast to get a sense of what the package offers (***coming soon!***).# InstallationThe package combines the scripting ability of Tinderbox (in the form of &quot;stamps&quot;, mostly) with the automation tool Keyboard Maestro[^km_footnote] -- a much recommended addition to any serious Mac user&apos;s toolkit.1. The keyboard activation macros are kept in tinderboost.kmlibrary which can be imported into KMaestro.2. The Tinderbox stamps are kept in tinderboost.tbx # Referencetinderboost.tbx lists the key bindings for all implemented macros.[^km_footnote]: Needs version 5 because of its enhanced scripting capacities # ContributingSince both Tinderbox and Keyboard Maestro files are in XML format, it naturally fits in the Git versioning framework.I know the [Tinderbox community](http://www.eastgate.com/Tinderbox/forum/) is vibrant and I welcome you to adapt it and improve it. How to contribute:1. Fork it2. Create a branch (git checkout -b my_markup)3. Commit your changes (git commit -am &quot;Added Snarkdown&quot;)4. Push to the branch (git push origin my_markup)5. Create an Issue with a link to your branchYou can support its creator via [Flattr](http://flattr.com/).# AcknowledgementsA lot of help came from the Tinderbox community, in particular the support of Mark Anderson and of [Mark Bernstein](http://markbernstein.org).# Meh, it ain&apos;t workingfor any queries, please contact @istib</text>
+<styles >
+ <tstyle font="Calibri" bold="0" italic="0" underline="0" start="0" size="14" height="0" ascent="0" color="#000000"  />
+</styles>
+<rtf >{\rtf1\mac
+{\fonttbl
+{\f0\fnil\fcharset77 Calibri;}}
+{\colortbl
+\red0\green0\blue0;}
+{\info}
+\deftab720
+{\pard\plain\uc0\f0\fs28\cf0\ql\sb120\li1260\ri1080\tx1980\tx2700\tx3420\tx4140\tx4860\tx5580\tx6300\tx7020 # What is Tinderboost?\par
+\par
+If you&apos;ve compared professional note-taking applications on Mac, you will sooner or later recognize Tinderbox as the most astonishing and powerful [not least because it serves as outliner, mind-mapper, database, GTD assistant and scriptable text exporter and aggregator]. It is also likely that you will grow impatient with its clunky and non-intuitive user interface. \par
+\par
+Tinderbox is immensely powerful, but may lack in eye candy and user friendliness, and most importantly in keyboard shortcuts for productive work. Thanks to Tinderbox very extensive scriptability and the excellent Keyboard Maestro, I have tinkered with the program until it suited my workflow needs. Tinderboost is an extension to make your daily use of Tinderbox more effective, pleasant and to keep those hands on the keyboard. The motivation is to make Tinderbox a bit more similar to [**org-mode**](http://orgmode.org/) -- i.e. a keyboard-focused lightweight notetaker, outliner, reference library and GTD.\par
+\par
+&gt; *You may well find your love to Tinderbox rekindled when becoming acquainted with the package.* -- Some Punter\par
+\par
+This package provides keyboard automation and interface extensions that allow you to work at the pace of thought:\par
+\par
+* Note formatting (colors, size, case)\par
+* Text filtering, quick find/replace\par
+* Quick rule editing\par
+* Quick editing of attributes\par
+* Quick note moving\par
+* Tagging support\par
+* Quick assignment of prototypes\par
+* Note imploding\par
+* Readymade templates to export to PDF and more\par
+* Importing highlights from PDFs\par
+\par
+Note:\par
+It&apos;s not at all meant to replace the existing user interface altogether. Also, typing prototype names and color name may sound like a way backward when the application allows to click on drop-down lists. If that is how you are using Tinderbox and don&apos;t see a reason to change it, please don&apos;t bother with this. It won&apos;t help you.\par
+\par
+\par
+# Show me the beauty\par
+\par
+Here&apos;s a screencast to get a sense of what the package offers (***coming soon!***).\par
+\par
+# Installation\par
+\par
+The package combines the scripting ability of Tinderbox (in the form of &quot;stamps&quot;, mostly) with the automation tool Keyboard Maestro[^km_footnote] -- a much recommended addition to any serious Mac user&apos;s toolkit.\par
+\par
+1. The keyboard activation macros are kept in tinderboost.kmlibrary which can be imported into KMaestro.\par
+2. The Tinderbox stamps are kept in tinderboost.tbx \par
+\par
+# Reference\par
+\par
+tinderboost.tbx lists the key bindings for all implemented macros.\par
+\par
+[^km_footnote]: Needs version 5 because of its enhanced scripting capacities \par
+\par
+# Contributing\par
+\par
+Since both Tinderbox and Keyboard Maestro files are in XML format, it naturally fits in the Git versioning framework.\par
+I know the [Tinderbox community](http://www.eastgate.com/Tinderbox/forum/) is vibrant and I welcome you to adapt it and improve it. \par
+\par
+How to contribute:\par
+\par
+1. Fork it\par
+2. Create a branch (git checkout -b my_markup)\par
+3. Commit your changes (git commit -am &quot;Added Snarkdown&quot;)\par
+4. Push to the branch (git push origin my_markup)\par
+5. Create an Issue with a link to your branch\par
+\par
+You can support its creator via [Flattr](http://flattr.com/).\par
+\par
+# Acknowledgements\par
+\par
+A lot of help came from the Tinderbox community, in particular the support of Mark Anderson and of [Mark Bernstein](http://markbernstein.org).\par
+\par
+\par
+# Meh, it ain&apos;t working\par
+\par
+for any queries, please contact @istib}}
+</rtf>
+</item>
+<item ID="3412869926" Creator="s" >
+<attribute name="Created" >2012-02-23T19:21:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T19:21:00+00:00</attribute>
+<attribute name="Name" >Reference</attribute>
+<attribute name="SelectionCount" >34</attribute>
+<attribute name="Xpos" >27.25</attribute>
+<attribute name="Ypos" >6</attribute>
+<item ID="4294948110" Creator="s" >
+<attribute name="Color" >normal</attribute>
+<attribute name="Created" >2011-12-14T19:59:00+00:00</attribute>
+<attribute name="MapScrollX" >17.75</attribute>
+<attribute name="MapScrollY" >1.25</attribute>
+<attribute name="Modified" >2011-12-14T19:59:00+00:00</attribute>
+<attribute name="Name" >Colors and Size</attribute>
+<attribute name="SelectionCount" >54</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="4294948127" Creator="s" >
+<attribute name="Color" >normal</attribute>
+<attribute name="Created" >2011-12-14T20:00:00+00:00</attribute>
+<attribute name="Modified" >2011-12-14T20:00:00+00:00</attribute>
+<attribute name="Name" >Note Color - Ctrl+C</attribute>
+<attribute name="ReadCount" >1</attribute>
+<attribute name="SelectionCount" >26</attribute>
+<attribute name="Xpos" >15.25</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="4294948117" Creator="s" >
+<attribute name="Color" >normal</attribute>
+<attribute name="Created" >2011-12-14T19:59:00+00:00</attribute>
+<attribute name="Modified" >2011-12-14T19:59:00+00:00</attribute>
+<attribute name="Name" >Outline Background Colors - Ctrl+Alt+C</attribute>
+<attribute name="SelectionCount" >29</attribute>
+<attribute name="Xpos" >20.75</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="4294948122" Creator="s" >
+<attribute name="Color" >normal</attribute>
+<attribute name="Created" >2011-12-14T19:59:00+00:00</attribute>
+<attribute name="Modified" >2011-12-14T19:59:00+00:00</attribute>
+<attribute name="Name" >Background Colors - Ctrl+Cmd+C</attribute>
+<attribute name="SelectionCount" >22</attribute>
+<attribute name="Xpos" >26.25</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="4294948129" Creator="s" >
+<attribute name="Color" >normal</attribute>
+<attribute name="Created" >2011-12-14T20:00:00+00:00</attribute>
+<attribute name="Modified" >2011-12-14T20:00:00+00:00</attribute>
+<attribute name="Name" >Note Size - Ctrl+Alt+ -/+</attribute>
+<attribute name="SelectionCount" >17</attribute>
+<attribute name="Xpos" >9.75</attribute>
+<attribute name="Ypos" >3</attribute>
+</item>
+</item>
+<item ID="3412871885" Creator="s" >
+<attribute name="Created" >2012-02-23T19:58:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T19:58:00+00:00</attribute>
+<attribute name="Name" >Size in Maps</attribute>
+<attribute name="SelectionCount" >2</attribute>
+<attribute name="Xpos" >2.75</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="3412871942" Creator="s" >
+<attribute name="Created" >2012-02-23T19:59:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T19:59:00+00:00</attribute>
+<attribute name="Name" >Decrease Height - Shift+Cmd+Up</attribute>
+<attribute name="SelectionCount" >3</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >0.5</attribute>
+</item>
+<item ID="3412871886" Creator="s" >
+<attribute name="Created" >2012-02-23T19:58:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T19:58:00+00:00</attribute>
+<attribute name="Name" >Decrease Width - Shift+Cmd+Left</attribute>
+<attribute name="SelectionCount" >2</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="3412871941" Creator="s" >
+<attribute name="Created" >2012-02-23T19:59:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T19:59:00+00:00</attribute>
+<attribute name="Name" >Move Note - Opt+Cmd+Arrows</attribute>
+<attribute name="SelectionCount" >2</attribute>
+<attribute name="Xpos" >5.5</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="3412872301" Creator="s" >
+<attribute name="Created" >2012-02-23T20:05:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T20:05:00+00:00</attribute>
+<attribute name="Name" >Quick Small (Ctrl+Opt+1), Medium (Ctrl+Opt+2), Large (Ctrl+Opt+3), Long (Ctrl+Opt+4)</attribute>
+<attribute name="SelectionCount" >2</attribute>
+<attribute name="Xpos" >11</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+</item>
+<item ID="4294948150" Creator="s" >
+<attribute name="Color" >normal</attribute>
+<attribute name="Created" >2011-12-14T20:02:00+00:00</attribute>
+<attribute name="Modified" >2011-12-14T20:02:00+00:00</attribute>
+<attribute name="Name" >Title Case</attribute>
+<attribute name="SelectionCount" >24</attribute>
+<attribute name="Xpos" >5.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="4294948155" Creator="s" >
+<attribute name="Created" >2011-09-29T17:10:00+00:00</attribute>
+<attribute name="Modified" >2011-09-29T17:10:00+00:00</attribute>
+<attribute name="Name" >title case, Ctrl+U</attribute>
+<attribute name="SelectionCount" >15</attribute>
+<attribute name="Xpos" >16.5</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="4294948157" Creator="s" >
+<attribute name="Created" >2011-09-29T17:10:00+00:00</attribute>
+<attribute name="Modified" >2011-09-29T17:10:00+00:00</attribute>
+<attribute name="Name" >sentence case, Ctrl+Opt+Cmd+U</attribute>
+<attribute name="SelectionCount" >15</attribute>
+<attribute name="Xpos" >22</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="4294948159" Creator="s" >
+<attribute name="Created" >2011-09-29T17:11:00+00:00</attribute>
+<attribute name="Modified" >2011-09-29T17:11:00+00:00</attribute>
+<attribute name="Name" >uppercase, Ctrl+Opt+U</attribute>
+<attribute name="SelectionCount" >11</attribute>
+<attribute name="Xpos" >27.5</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="4294948153" Creator="s" >
+<attribute name="Created" >2011-09-29T17:10:00+00:00</attribute>
+<attribute name="Modified" >2011-09-29T17:10:00+00:00</attribute>
+<attribute name="Name" >lowercase, Ctrl+Cmd+U</attribute>
+<attribute name="SelectionCount" >10</attribute>
+<attribute name="Xpos" >11</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+</item>
+<item ID="4294948165" Creator="s" >
+<attribute name="Color" >normal</attribute>
+<attribute name="Created" >2011-12-14T20:19:00+00:00</attribute>
+<attribute name="Modified" >2011-12-14T20:19:00+00:00</attribute>
+<attribute name="Name" >Text Filtering</attribute>
+<attribute name="SelectionCount" >17</attribute>
+<attribute name="Xpos" >11</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="4294948170" Creator="s" >
+<attribute name="Created" >2011-09-29T17:15:00+00:00</attribute>
+<attribute name="Modified" >2011-09-29T17:15:00+00:00</attribute>
+<attribute name="Name" >replace, Ctrl+Opt+J</attribute>
+<attribute name="SelectionCount" >16</attribute>
+<attribute name="Xpos" >11</attribute>
+<attribute name="Ypos" >1.5</attribute>
+</item>
+<item ID="4294948172" Creator="s" >
+<attribute name="Created" >2011-09-29T17:14:00+00:00</attribute>
+<attribute name="Modified" >2011-09-29T17:14:00+00:00</attribute>
+<attribute name="Name" >filter, Ctrl+Opt+H</attribute>
+<attribute name="SelectionCount" >24</attribute>
+<attribute name="Xpos" >16.5</attribute>
+<attribute name="Ypos" >1.5</attribute>
+</item>
+</item>
+<item ID="4294948186" Creator="s" >
+<attribute name="Color" >normal</attribute>
+<attribute name="Created" >2011-09-29T17:08:00+00:00</attribute>
+<attribute name="Modified" >2011-09-29T17:08:00+00:00</attribute>
+<attribute name="Name" >Quick note moving</attribute>
+<attribute name="SelectionCount" >24</attribute>
+<attribute name="Xpos" >16.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="4294948187" Creator="s" >
+<attribute name="Created" >2011-09-29T17:19:00+00:00</attribute>
+<attribute name="Modified" >2011-09-29T17:19:00+00:00</attribute>
+<attribute name="Name" >Move to specific Container - Ctrl+M</attribute>
+<attribute name="SelectionCount" >9</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="4294948188" Creator="s" >
+<attribute name="Created" >2011-09-29T17:20:00+00:00</attribute>
+<attribute name="Modified" >2011-09-29T17:20:00+00:00</attribute>
+<attribute name="Name" >Move to Inbox - Ctlr+I</attribute>
+<attribute name="SelectionCount" >8</attribute>
+<attribute name="Xpos" >5.5</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+</item>
+<item ID="4294948189" Creator="s" >
+<attribute name="Color" >normal</attribute>
+<attribute name="Created" >2011-10-02T22:20:00+00:00</attribute>
+<attribute name="Modified" >2011-10-02T22:20:00+00:00</attribute>
+<attribute name="Name" >Quick link</attribute>
+<attribute name="SelectionCount" >22</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >3</attribute>
+<item ID="4294948190" Creator="s" >
+<attribute name="Created" >2011-10-02T22:20:00+00:00</attribute>
+<attribute name="Modified" >2011-10-02T22:20:00+00:00</attribute>
+<attribute name="Name" >Link to note - Ctrl+L</attribute>
+<attribute name="SelectionCount" >8</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+</item>
+<item ID="4294948195" Creator="s" >
+<attribute name="Color" >normal</attribute>
+<attribute name="Created" >2011-09-29T17:08:00+00:00</attribute>
+<attribute name="Modified" >2011-09-29T17:08:00+00:00</attribute>
+<attribute name="Name" >Quick assignment of prototypes - Ctrl+P</attribute>
+<attribute name="SelectionCount" >30</attribute>
+<attribute name="Xpos" >5.5</attribute>
+<attribute name="Ypos" >3</attribute>
+<item ID="3412871642" Creator="s" >
+<attribute name="Created" >2012-02-23T19:54:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T19:54:00+00:00</attribute>
+<attribute name="Name" >Set same prototype as previous sibling - Ctrl+Cmd+P</attribute>
+<attribute name="SelectionCount" >6</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="3412871703" Creator="s" >
+<attribute name="Created" >2012-02-23T19:55:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T19:55:00+00:00</attribute>
+<attribute name="Name" >Set same prototype again - Ctrl+Opt+Cmd+P</attribute>
+<attribute name="SelectionCount" >4</attribute>
+<attribute name="Xpos" >1.5</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="3412871702" Creator="s" >
+<attribute name="Created" >2012-02-23T19:55:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T19:55:00+00:00</attribute>
+<attribute name="Name" >Remove prototype - Ctrl+Opt+Cmd+Shift+P</attribute>
+<attribute name="SelectionCount" >5</attribute>
+<attribute name="Xpos" >2.75</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+</item>
+<item ID="3412869301" Creator="s" >
+<attribute name="Color" >normal</attribute>
+<attribute name="Created" >2012-02-23T19:15:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T19:15:00+00:00</attribute>
+<attribute name="Name" >Adding KeyAttributes - Ctrl+Opt+A</attribute>
+<attribute name="SelectionCount" >7</attribute>
+<attribute name="Xpos" >11</attribute>
+<attribute name="Ypos" >3</attribute>
+</item>
+<item ID="4294948182" Creator="s" >
+<attribute name="Color" >normal</attribute>
+<attribute name="Created" >2011-09-29T17:17:00+00:00</attribute>
+<attribute name="Modified" >2011-09-29T17:17:00+00:00</attribute>
+<attribute name="Name" >Quick display of attributes</attribute>
+<attribute name="ReadCount" >1</attribute>
+<attribute name="SelectionCount" >29</attribute>
+<attribute name="Xpos" >16.5</attribute>
+<attribute name="Ypos" >3</attribute>
+<item ID="4294948184" Creator="s" >
+<attribute name="Created" >2011-09-29T17:18:00+00:00</attribute>
+<attribute name="Modified" >2011-09-29T17:18:00+00:00</attribute>
+<attribute name="Name" >Set Attribute to display - Ctrl+Alt+X</attribute>
+<attribute name="SelectionCount" >12</attribute>
+<attribute name="Xpos" >5</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="4294948185" Creator="s" >
+<attribute name="Created" >2011-09-29T17:18:00+00:00</attribute>
+<attribute name="Modified" >2011-09-29T17:18:00+00:00</attribute>
+<attribute name="Name" >Display Attribute - Ctrl+X</attribute>
+<attribute name="SelectionCount" >8</attribute>
+<attribute name="Xpos" >26.5</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+</item>
+<item ID="4294948179" Creator="s" >
+<attribute name="Color" >normal</attribute>
+<attribute name="Created" >2011-09-29T17:08:00+00:00</attribute>
+<attribute name="Modified" >2011-09-29T17:08:00+00:00</attribute>
+<attribute name="Name" >Quick editing of attributes</attribute>
+<attribute name="SelectionCount" >32</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >6</attribute>
+<item ID="3412869302" Creator="s" >
+<attribute name="Created" >2011-09-29T17:18:00+00:00</attribute>
+<attribute name="Modified" >2011-09-29T17:18:00+00:00</attribute>
+<attribute name="Name" >Set Attribute to edit - Ctrl+Alt+Z</attribute>
+<attribute name="SelectionCount" >17</attribute>
+<attribute name="Xpos" >2</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="3412869304" Creator="s" >
+<attribute name="Created" >2011-09-29T17:18:00+00:00</attribute>
+<attribute name="Modified" >2011-09-29T17:18:00+00:00</attribute>
+<attribute name="Name" >Edit Attribute - Ctrl+Z</attribute>
+<attribute name="SelectionCount" >12</attribute>
+<attribute name="Xpos" >7.5</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+</item>
+<item ID="4294948178" Creator="s" >
+<attribute name="Color" >normal</attribute>
+<attribute name="Created" >2011-09-29T17:08:00+00:00</attribute>
+<attribute name="Modified" >2011-09-29T17:08:00+00:00</attribute>
+<attribute name="Name" >Quick rule editing, ctrl+R</attribute>
+<attribute name="ReadCount" >1</attribute>
+<attribute name="SelectionCount" >18</attribute>
+<attribute name="Xpos" >5.5</attribute>
+<attribute name="Ypos" >6</attribute>
+</item>
+<item ID="3412871704" Creator="s" >
+<attribute name="Created" >2012-02-23T19:55:00+00:00</attribute>
+<attribute name="KeyAttributes" >Tags</attribute>
+<attribute name="Modified" >2012-02-23T19:55:00+00:00</attribute>
+<attribute name="Name" >Quick Tagging</attribute>
+<attribute name="SelectionCount" >10</attribute>
+<attribute name="Xpos" >8.25</attribute>
+<attribute name="Ypos" >6</attribute>
+<item ID="3412871705" Creator="s" >
+<attribute name="Created" >2012-02-23T19:55:00+00:00</attribute>
+<attribute name="KeyAttributes" >Tags</attribute>
+<attribute name="Modified" >2012-02-23T19:56:00+00:00</attribute>
+<attribute name="Name" >Add Tag - Cmd+T</attribute>
+<attribute name="ReadCount" >1</attribute>
+<attribute name="SelectionCount" >5</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="3412871761" Creator="s" >
+<attribute name="Created" >2012-02-23T19:56:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T19:56:00+00:00</attribute>
+<attribute name="Name" >Show Tags in Name - Ctrl+Cmd+T</attribute>
+<attribute name="SelectionCount" >2</attribute>
+<attribute name="Xpos" >5.5</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="3412872061" Creator="s" >
+<attribute name="Created" >2012-02-23T20:01:00+00:00</attribute>
+<attribute name="KeyAttributes" >Tags</attribute>
+<attribute name="Modified" >2012-02-23T20:01:00+00:00</attribute>
+<attribute name="Name" >Extract Tags from NAme - Shift+Cmd+T</attribute>
+<attribute name="SelectionCount" >1</attribute>
+<attribute name="Xpos" >11</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+</item>
+<item ID="4294948192" Creator="s" >
+<attribute name="Color" >normal</attribute>
+<attribute name="Created" >2011-12-14T20:04:00+00:00</attribute>
+<attribute name="Modified" >2011-12-14T20:04:00+00:00</attribute>
+<attribute name="Name" >Quick outlining</attribute>
+<attribute name="SelectionCount" >26</attribute>
+<attribute name="Xpos" >11</attribute>
+<attribute name="Ypos" >6</attribute>
+<item ID="4294948193" Creator="s" >
+<attribute name="Created" >2011-12-14T20:00:00+00:00</attribute>
+<attribute name="Modified" >2011-12-14T20:00:00+00:00</attribute>
+<attribute name="Name" >Demote Children - Ctrl+Shift-Left</attribute>
+<attribute name="SelectionCount" >17</attribute>
+<attribute name="Xpos" >9.75</attribute>
+<attribute name="Ypos" >3</attribute>
+</item>
+<item ID="3412871581" Creator="s" >
+<attribute name="Created" >2012-02-23T19:53:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T19:53:00+00:00</attribute>
+<attribute name="Name" >Copy Text (from Outline/Map) - Ctrl+Opt+Cmd+C</attribute>
+<attribute name="SelectionCount" >3</attribute>
+<attribute name="Xpos" >11.25</attribute>
+<attribute name="Ypos" >3</attribute>
+</item>
+<item ID="3412871583" Creator="s" >
+<attribute name="Created" >2012-02-23T19:53:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T19:53:00+00:00</attribute>
+<attribute name="Name" >Paste Text (from Outline/Map) - Ctrl+Opt+Cmd+V</attribute>
+<attribute name="SelectionCount" >7</attribute>
+<attribute name="Xpos" >11.75</attribute>
+<attribute name="Ypos" >3</attribute>
+</item>
+<item ID="3412871585" Creator="s" >
+<attribute name="Created" >2012-02-23T19:53:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T19:53:00+00:00</attribute>
+<attribute name="Name" >Delete Text (from Outline/Map) - Ctrl+Opt+Cmd+Del</attribute>
+<attribute name="SelectionCount" >7</attribute>
+<attribute name="Xpos" >12.25</attribute>
+<attribute name="Ypos" >3</attribute>
+</item>
+<item ID="3412871586" Creator="s" >
+<attribute name="Created" >2012-02-23T19:53:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T19:53:00+00:00</attribute>
+<attribute name="Name" >Paste Name (from Outline/Map) - Ctrl+Opt+V</attribute>
+<attribute name="SelectionCount" >9</attribute>
+<attribute name="Xpos" >12</attribute>
+<attribute name="Ypos" >3</attribute>
+</item>
+<item ID="3412871523" Creator="s" >
+<attribute name="Created" >2012-02-23T19:52:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T19:52:00+00:00</attribute>
+<attribute name="Name" >Demote Children - Ctrl+Shift-Right</attribute>
+<attribute name="SelectionCount" >3</attribute>
+<attribute name="Xpos" >12.5</attribute>
+<attribute name="Ypos" >3</attribute>
+</item>
+<item ID="4294948194" Creator="s" >
+<attribute name="Created" >2011-12-14T20:04:00+00:00</attribute>
+<attribute name="Modified" >2011-12-14T20:04:00+00:00</attribute>
+<attribute name="Name" >Create a separator line - Ctrl+Alt+S</attribute>
+<attribute name="SelectionCount" >4</attribute>
+<attribute name="Xpos" >15.25</attribute>
+<attribute name="Ypos" >3</attribute>
+</item>
+<item ID="4294948197" Creator="s" >
+<attribute name="Color" >normal</attribute>
+<attribute name="Created" >2011-09-29T17:08:00+00:00</attribute>
+<attribute name="Modified" >2011-09-29T17:08:00+00:00</attribute>
+<attribute name="Name" >Note imploding - Ctrl+Opt+Cmd+I</attribute>
+<attribute name="ReadCount" >1</attribute>
+<attribute name="SelectionCount" >25</attribute>
+<attribute name="Xpos" >16.5</attribute>
+<attribute name="Ypos" >6</attribute>
+<item ID="3412872062" Creator="s" >
+<attribute name="Created" >2012-02-23T20:01:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T20:01:00+00:00</attribute>
+<attribute name="Name" >Implode and send children to Trash - Ctrl+Opt+Cmd+Shift+I</attribute>
+<attribute name="SelectionCount" >4</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+</item>
+<item ID="3412872122" Creator="s" >
+<attribute name="Created" >2012-02-23T20:02:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T20:02:00+00:00</attribute>
+<attribute name="Name" >Append next note in Name + Ctrl+Opt+Up</attribute>
+<attribute name="SelectionCount" >2</attribute>
+<attribute name="Xpos" >22</attribute>
+<attribute name="Ypos" >6</attribute>
+</item>
+<item ID="3412872181" Creator="s" >
+<attribute name="Created" >2012-02-23T20:03:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T20:03:00+00:00</attribute>
+<attribute name="Name" >Append next note in Name in brackets + Ctrl+Cmd+Up</attribute>
+<attribute name="SelectionCount" >3</attribute>
+<attribute name="Xpos" >22.5</attribute>
+<attribute name="Ypos" >6.5</attribute>
+</item>
+<item ID="3412872241" Creator="s" >
+<attribute name="Created" >2012-02-23T20:04:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T20:04:00+00:00</attribute>
+<attribute name="Name" >New Note with Clipboard as Sibling - Ctrl+V</attribute>
+<attribute name="SelectionCount" >2</attribute>
+<attribute name="Xpos" >28</attribute>
+<attribute name="Ypos" >6.5</attribute>
+</item>
+<item ID="3412872242" Creator="s" >
+<attribute name="Created" >2012-02-23T20:04:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T20:04:00+00:00</attribute>
+<attribute name="Name" >New Note with Clipboard as Child - Ctrl+Shift+V</attribute>
+<attribute name="SelectionCount" >3</attribute>
+<attribute name="Xpos" >28.5</attribute>
+<attribute name="Ypos" >7</attribute>
+</item>
+</item>
+<item ID="3412871881" Creator="s" >
+<attribute name="Created" >2012-02-23T19:58:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T19:58:00+00:00</attribute>
+<attribute name="Name" >Other</attribute>
+<attribute name="SelectionCount" >14</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >9</attribute>
+<item ID="3412871882" Creator="s" >
+<attribute name="Created" >2012-02-23T19:58:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T19:58:00+00:00</attribute>
+<attribute name="Name" >Open URL in Safari (from Outline) - Cmd+Enter</attribute>
+<attribute name="SelectionCount" >2</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="3412871883" Creator="s" >
+<attribute name="Created" >2012-02-23T19:58:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T19:58:00+00:00</attribute>
+<attribute name="Name" >Create Adornment in Map - Alt+Enter</attribute>
+<attribute name="SelectionCount" >2</attribute>
+<attribute name="Xpos" >5.5</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="3412871884" Creator="s" >
+<attribute name="Created" >2012-02-23T19:58:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T19:58:00+00:00</attribute>
+<attribute name="Name" >Create Agent - Ctrl+Opt+Enter</attribute>
+<attribute name="SelectionCount" >3</attribute>
+<attribute name="Xpos" >11</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="3412872001" Creator="s" >
+<attribute name="Created" >2012-02-23T20:00:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T20:00:00+00:00</attribute>
+<attribute name="Name" >Toggle Agent State On/Off - Ctrl+Cmd+A</attribute>
+<attribute name="SelectionCount" >2</attribute>
+<attribute name="Xpos" >16.5</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="3412872002" Creator="s" >
+<attribute name="Created" >2012-02-23T20:00:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T20:00:00+00:00</attribute>
+<attribute name="Name" >Toggle Checkbox - Ctrl+D</attribute>
+<attribute name="SelectionCount" >3</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >3</attribute>
+</item>
+<item ID="3412872121" Creator="s" >
+<attribute name="Created" >2012-02-23T20:02:00+00:00</attribute>
+<attribute name="Modified" >2012-02-23T20:02:00+00:00</attribute>
+<attribute name="Name" >Map View Options - Opt+A</attribute>
+<attribute name="SelectionCount" >2</attribute>
+<attribute name="Xpos" >5.5</attribute>
+<attribute name="Ypos" >3</attribute>
+</item>
+</item>
+</item>
+<item ID="3413026261" Creator="s" >
+<attribute name="Color" >red</attribute>
+<attribute name="Created" >2012-02-25T14:51:00+00:00</attribute>
+<attribute name="Modified" >2012-02-25T14:51:00+00:00</attribute>
+<attribute name="SelectionCount" >3</attribute>
+<attribute name="Separator" >true</attribute>
+<attribute name="Xpos" >32.75</attribute>
+<attribute name="Ypos" >6</attribute>
+</item>
+</item>
+<links >
+</links>
+<macros >
+<macro name="brackets" >if (!IsPrototype) { if ($1) { $Name + &quot; (&quot;+$1+&quot;)&quot; } else {$Name} }</macro>
+<macro name="brackets_s" >if (!IsPrototype) { if ($1) { $2 + &quot; (&quot;+$1+&quot;)&quot; } else {$2} }</macro>
+<macro name="cite" >&lt;!--\cite{$1}--&gt;</macro>
+<macro name="citep" >(&lt;!--\cite{$1}--&gt;)</macro>
+<macro name="cover" >&lt;a href=&quot;http://www.amazon.com/exec/obidos/tg/detail/-/$1/&quot; target=&quot;new&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://images.amazon.com/images/P/$1.01._PE00_SZZZZZ_.jpg&quot; /&gt;&lt;/a&gt;</macro>
+<macro name="eq" >&lt;!--\[ $1 \]--&gt;</macro>
+<macro name="filter" >escapeHTML($1).replace(&quot;- &quot;, &quot;&quot;).replace(&quot;&amp;#x2014;&quot;,&quot; -- &quot;).replace(&quot;&amp;#x201c;&quot;,&quot;&apos;&quot;).replace(&quot;&amp;#x201d;&quot;,&quot;&apos;&quot;).replace(&quot;&amp;#x2020;&quot;,&quot;&quot;).replace(&quot;&amp;amp;&quot;,&quot;&amp;&quot;)</macro>
+<macro name="footnote" >&lt;!--\footnote{$1}--&gt;</macro>
+<macro name="ft" >&lt;!--\footnote{$1}--&gt;</macro>
+<macro name="hypothesis" >&lt;!--\begin{hypothesis} \begin{minipage}[t]{4 in}$1\end{minipage} \end{hypothesis}--&gt;</macro>
+<macro name="image" >&lt;img src=&quot;^root^Blog/images/$1&quot; height=&quot;$3&quot; width=&quot;$2&quot; border=&quot;0&quot; /&gt;</macro>
+<macro name="paragraph" >&lt;!--\paragraph{$1}--&gt;</macro>
+<macro name="tbx" >&lt;a href=&quot;http://www.eastgate.com/Tinderbox/&quot; target=&quot;new&quot;&gt;Tinderbox&lt;/a&gt;</macro>
+</macros>
+<preferences >
+   <Creator > s</Creator>
+   <ToolbarVisible > 0</ToolbarVisible>
+   <OpenTextImmediately > 0</OpenTextImmediately>
+   <Tinderbox5Wizard > 0</Tinderbox5Wizard>
+   <DynamicSpelling > 0</DynamicSpelling>
+   <AutoOpen > 1</AutoOpen>
+   <AutomaticBackup > 0</AutomaticBackup>
+   <ReopenLastDocument > 0</ReopenLastDocument>
+   <Autosave > 1</Autosave>
+   <RememberWindowPositions > 0</RememberWindowPositions>
+   <KeepWindowsOpen > 1</KeepWindowsOpen>
+   <LeftMargin > 7</LeftMargin>
+   <RightMargin > -6</RightMargin>
+   <ParagraphSpacing > 4</ParagraphSpacing>
+   <MagnifyFonts > 1</MagnifyFonts>
+   <TextFont > Calibri</TextFont>
+   <TextSize > 4</TextSize>
+   <TextJust > 0</TextJust>
+   <AlwaysShowTextLinks > 1</AlwaysShowTextLinks>
+   <TextLinkFrames > 1</TextLinkFrames>
+   <TextLinkColor > 0 26112 52224</TextLinkColor>
+   <VisitedLinkColor > 26112 0 52224</VisitedLinkColor>
+   <ActiveLinkColor > 65535 0 0</ActiveLinkColor>
+   <MagnifyPictures > 0</MagnifyPictures>
+   <TextWindowWidth > 4</TextWindowWidth>
+   <TextWindowHeight > 3</TextWindowHeight>
+   <TextBackgroundColor > 61179 61143 60829</TextBackgroundColor>
+   <TextColor > 0 0 0</TextColor>
+   <ShowSidebar > 0</ShowSidebar>
+   <AutoIndentLists > 0</AutoIndentLists>
+   <ShowTitle > 0</ShowTitle>
+   <TitleBackgroundColor > 52600 52330 64928</TitleBackgroundColor>
+   <TitleForegroundColor > 13107 13107 13107</TitleForegroundColor>
+   <TitleFont > Calibri</TitleFont>
+   <TitleSize > 2</TitleSize>
+   <TitleJust > 2</TitleJust>
+   <MapShowLinks > 1</MapShowLinks>
+   <MapEnacted > 1</MapEnacted>
+   <InPlaceEditing > 1</InPlaceEditing>
+   <MapLabelSize > 4</MapLabelSize>
+   <MapBackgroundColor > 62194 61444 59120</MapBackgroundColor>
+   <MapBackgroundColor2 > 61840 64203 65535</MapBackgroundColor2>
+   <MapBackgroundPattern > gradient</MapBackgroundPattern>
+   <MapPrototypeColor > 52428 61166 52428</MapPrototypeColor>
+   <MapFont > Calibri</MapFont>
+   <DarkenOutlineColors > 1</DarkenOutlineColors>
+   <BlackOutlineText > 0</BlackOutlineText>
+   <OutlineLeading > 0</OutlineLeading>
+   <InteriorScale > 0</InteriorScale>
+   <ExpandMode > 3</ExpandMode>
+   <AfterLinkingSelect > 2</AfterLinkingSelect>
+   <ExportImageFormat > 3</ExportImageFormat>
+   <ExportURL > http://</ExportURL>
+   <ExportHTMLCreator > 1</ExportHTMLCreator>
+   <ExportHTMLHelper > Safari</ExportHTMLHelper>
+   <ExportHTMLExtension > 1</ExportHTMLExtension>
+   <HTMLParagraphStyle > 1</HTMLParagraphStyle>
+   <HTMLViewFont > Calibri</HTMLViewFont>
+   <HTMLViewFontSize > 4</HTMLViewFontSize>
+   <ExportTemplatePath > /Applications/Tinderbox.app/Contents/MacOS/templates/html/plain</ExportTemplatePath>
+   <ExportTemplate > lain-text</ExportTemplate>
+   <ExportTextTemplate > ~/Desktop</ExportTextTemplate>
+   <RoadmapWindowWidth > 1088</RoadmapWindowWidth>
+   <RoadmapWindowHeight > 635</RoadmapWindowHeight>
+   <ExportTextCreator > 1</ExportTextCreator>
+   <TextExportViewFont > Calibri</TextExportViewFont>
+   <TextExportViewFontSize > 4</TextExportViewFontSize>
+   <ExportTextTemplatePath > /Applications/Tinderbox.app/Contents/MacOS/templates/text/text</ExportTextTemplatePath>
+   <ExportTextHelper > TextMate</ExportTextHelper>
+   <AskToDelete > 1</AskToDelete>
+   <DailyTip > 1</DailyTip>
+   <WarnEditingDefault > 0</WarnEditingDefault>
+   <WarnDuplicateName > 0</WarnDuplicateName>
+   <RunScriptsAutomatically > 0</RunScriptsAutomatically>
+   <Version > version 5.10.1</Version>
+   <PreferencePane > 4</PreferencePane>
+   <Fontmap > 1
+ -32576 Calibri
+</Fontmap>
+   <TipWindowX > 300</TipWindowX>
+   <TipWindowY > 50</TipWindowY>
+   <RegUserName > </RegUserName>
+   <RegUserOrg > </RegUserOrg>
+   <CurrentAttributeClass > HTML</CurrentAttributeClass>
+   <CurrentAttribute > HTMLBoldEnd</CurrentAttribute>
+   <FindCaseSensitive > 0</FindCaseSensitive>
+   <ExportFolder > /Users/istib/Documents</ExportFolder>
+   <ReadOnly > 0</ReadOnly>
+   <InfoWindowHeight > 1002</InfoWindowHeight>
+   <InfoWindowWidth > 840</InfoWindowWidth>
+   <RecentFiles > </RecentFiles>
+   <PingServer > </PingServer>
+   <PingMethod > </PingMethod>
+   <PingTitle > </PingTitle>
+   <PingURL > </PingURL>
+      <PingTechnorati > 0</PingTechnorati>
+   <PingWeblogsCom > 0</PingWeblogsCom>
+   <PingGoogle > 1</PingGoogle>
+   <PingFeedURL > </PingFeedURL>
+   <WeblogServer > </WeblogServer>
+   <WeblogUser > </WeblogUser>
+   <WeblogPassword > </WeblogPassword>
+   <WeblogID > 1</WeblogID>
+   <WeblogKind > 2</WeblogKind>
+   <ToolbarKind > 3</ToolbarKind>
+   <ReadingReminders > 0</ReadingReminders>
+   <AllowViews > 1</AllowViews>
+   <AutomaticAgentUpdate > 1</AutomaticAgentUpdate>
+   <ToolbarX > 20</ToolbarX>
+   <ToolbarY > 656</ToolbarY>
+   <FindWindowX > 640</FindWindowX>
+   <FindWindowY > 44</FindWindowY>
+   <RenameWindowX > 415</RenameWindowX>
+   <RenameWindowY > 92</RenameWindowY>
+   <UpdateViewShown > 5 Oct 2009 17:17:06</UpdateViewShown>
+   <TimelineScale > 400</TimelineScale>
+   <TimelineLabelSize > 13</TimelineLabelSize>
+   <LeftMargin > 7</LeftMargin>
+   <RightMargin > -6</RightMargin>
+   <ParagraphSpacing > 4</ParagraphSpacing>
+   <MagnifyFonts > 1</MagnifyFonts>
+   <SoundOn > 1</SoundOn>
+   <BecomeReadOnly > 0</BecomeReadOnly>
+   <CheckMail > 0</CheckMail>
+   <MailHost > </MailHost>
+   <MailUser > </MailUser>
+   <MailPassword > </MailPassword>
+   <CheckSimplenote > 0</CheckSimplenote>
+   <SimplenoteEmail > </SimplenoteEmail>
+   <SimplenotePassword > </SimplenotePassword>
+   <SimplenoteTag > </SimplenoteTag>
+</preferences>
+<windows >
+<window ID="3337809336" Creator="s" type="inspector" bounds="Rect[ 700 50 1100 250]" x="0" y="0" scale="1"  />
+<window ID="3337809336" Creator="s" type="outline" bounds="Rect[ 640 44 1280 796]" x="0" y="0" scale="5" expanded="3337809336 " collapsed="3412869926 4294948110 3412871885 4294948150 4294948165 4294948186 4294948189 4294948195 4294948182 4294948179 3412871704 4294948192 4294948197 3412871881 "  />
+<window ID="3337809336" Creator="s" type="attributePalette" bounds="Rect[ 700 400 1100 616]" x="0" y="0" scale="1"  />
+<window ID="3412878074" Creator="s" type="text" bounds="Rect[ 0 44 640 796]" x="0" y="0" scale="1"  />
+</windows>
+</tinderbox>
