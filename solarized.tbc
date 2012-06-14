@@ -1,0 +1,31 @@
+<!------------------------------------------------ 
+
+      SOLARIZED COLOR SCHEME FOR TINDERBOX
+
+                 adapted from 
+      http://ethanschoonover.com/solarized
+
+------------------------------------------------->
+
+<colors>
+  <color name="base04"    color="#002b36" />
+  <color name="base02"    color="#073642" />
+  <color name="base01"    color="#586e75" />
+  <color name="base00"    color="#657b83" />
+  <color name="base0"     color="#839496" />
+  <color name="base1"     color="#93a1a1" />
+  <color name="base2"     color="#eee8d5" />
+  <color name="base3"     color="#fdf6e3" />
+  <color name="yellow"    color="#b58900" />
+  <color name="orange"    color="#cb4b16" />
+  <color name="red"       color="#dc322f" />
+  <color name="magenta"   color="#d33682" />
+  <color name="violet"    color="#6c71c4" />
+  <color name="blue"      color="#268bd2" />
+  <color name="cyan"      color="#2aa198" />
+  <color name="green"     color="#859900" />
+</colors>
+
+<!-- background color: base3 -->
+<!-- recommended note color: light blue -->
+
